@@ -16,5 +16,5 @@ jobs:
           password: ${{secrets.GITHUB_TOKEN}}
       - name: Build and push container image
         run: |
-          docker build . -f docker/Dockerfile --tag ghcr.io/keepalived-dock/keepalived:latest
+          docker build . -f Dockerfile --tag ghcr.io/keepalived-dock/keepalived:latest
           docker push ghcr.io/keepalived-dock/keepalived:latest
