@@ -11,6 +11,6 @@ What you need to do is when running it, link your keepalived.conf file to the `/
 
 To build locally, run:
 
-```bash 
-docker build -t keepalived -f Dockerfile . 
+```bash
+docker pull ghcr.io/paul-weqe/keepalived:latest
 ```
